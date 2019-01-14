@@ -14,7 +14,7 @@ You can also customize the toolbar to include controls specific to your block ty
 {% ES5 %}
 ```js
 var el = wp.element.createElement,
-	Fragment = wp.element.Fragment
+	Fragment = wp.element.Fragment,
 	registerBlockType = wp.blocks.registerBlockType,
 	RichText = wp.editor.RichText,
 	BlockControls = wp.editor.BlockControls,
